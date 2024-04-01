@@ -8,15 +8,14 @@ function App() {
 
   const { t, i18n } = useTranslation();
 
-  function handleButton(){
-    i18n(
-      
-    )
-  }
+  
   return (
     <Box>
       <Typography>hello</Typography>
       <Button variant="contained">{t('Welcome')}</Button>
+      <Typography>
+        hi 
+      </Typography>
     </Box>
   );
 }
